@@ -22,12 +22,16 @@ body {
     justify-content: center;
     padding: 10px;
     color: white;
+    word-spacing: 5px;
 }
 .sub-head {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
     color: white;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    text-decoration: underline;
 }
 img {
     width: 100%; 
@@ -40,7 +44,7 @@ img {
 }
 @media (max-width:600px) {
     body {
-        font-size: 11px;
+        font-size: 10px;
     }
     .main {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
